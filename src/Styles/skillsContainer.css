@@ -1,0 +1,23 @@
+.technical {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: white;
+  border-radius: 10%;
+  float: left;
+  background-color: black;
+}
+
+.soft {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: white;
+  border-radius: 10%;
+  float: right;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "nedim-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.3.1",
+    "react": "^16.6.3",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "scroll-speed": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

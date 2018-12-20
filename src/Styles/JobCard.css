@@ -1,0 +1,33 @@
+.main {
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
+  border-radius: 10%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.picture {
+  border-right: solid 0.5px white;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  /* border-style: solid;
+  border-color: white; */
+  border-bottom: solid 0.5px white;
+  color: white;
+  font-family: Avenir Next;
+  font-size: 25;
+}
+
+.verticalAlign {
+  position: relative;
+  top: 50%;
+  transform: translateY(30%);
+}

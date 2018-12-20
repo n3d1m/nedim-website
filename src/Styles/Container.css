@@ -1,0 +1,116 @@
+.text {
+  font-family: "Avenir Next";
+  color: white;
+  font-size: 50px;
+}
+
+.stickyText {
+  font-family: "Avenir Next";
+  color: white;
+  font-size: 50px;
+  position: sticky;
+}
+
+.smallText {
+  font-family: "Avenir Next";
+  color: white;
+  font-size: 28px;
+}
+
+.smallerText {
+  font-family: "Avenir Next";
+  color: white;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.animationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homeOptions {
+  position: relative;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10%;
+  border-color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.innerText {
+  position: absolute;
+  top: 25%;
+  font-size: 22.5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.homeOptions:hover {
+  background-color: white;
+  color: black;
+}
+
+.imageContainer {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10%;
+  margin-bottom: 15px;
+}
+
+.aboutText {
+  font-family: "Avenir Next";
+  color: white;
+  font-size: 22px;
+  text-align: left;
+}
+
+.navbarContainer {
+  /* border-style: solid; */
+  border-width: 0.5px;
+  border-color: white;
+  padding: 7.5px;
+  height: auto;
+  width: auto;
+  margin-right: 30px;
+  margin-top: -3%;
+  position: relative;
+}
+
+.hidden {
+  animation: hidden 7.5s;
+  animation-iteration-count: infinite;
+}
+/* .hidden2 {
+  animation: hidden 2s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+} */
+@keyframes hidden {
+  0% {
+    animation-duration: 2/3s;
+    opacity: 1;
+  }
+  25% {
+    animation-duration: 2/3s;
+    opacity: 1;
+  }
+  75% {
+    animation-duration: 2/3s;
+    opacity: 0;
+  }
+  100% {
+    animation-duration: 2/3s;
+    opacity: 1;
+  }
+}
