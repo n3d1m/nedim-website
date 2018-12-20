@@ -4,6 +4,12 @@ import "aos/dist/aos.css";
 import Container from "../Styles/Container.css";
 import skillsContainer from "../Styles/skillsContainer.css";
 
+import ReactJS from "../Images/reactJS.png";
+import javascript from "../Images/javascript.png";
+import css from "../Images/css.png";
+import html from "../Images/html.png";
+import jquery from "../Images/jquery.png";
+
 export default class Skills extends React.Component {
   constructor(props) {
     super(props);
@@ -30,26 +36,91 @@ export default class Skills extends React.Component {
             My Skills
           </p>
         </center>
+        <div className="row">
+          <div className="technical" style={{ width: "20vw" }}>
+            <center>
+              <p
+                style={{ paddingBottom: 10, paddingTop: 5 }}
+                className="boxText"
+              >
+                Web Development
+              </p>
+            </center>
+            <div className="row">
+              <div className="col">
+                <img
+                  src={ReactJS}
+                  height="75vw"
+                  width="75vw"
+                  //className="circle"
+                />
+                <center>
+                  <p className="figText">ReactJS</p>
+                </center>
+              </div>
+              <div className="col">
+                <img
+                  src={javascript}
+                  height="75vw"
+                  width="75vw"
+                  //className="circle"
+                />
+                <center>
+                  <p className="figText">Javascript</p>
+                </center>
+              </div>
+              <div className="col">
+                <img src={css} height="75vw" width="75vw" />
+                <center>
+                  <p className="figText">CSS</p>
+                </center>
+              </div>
+              <div className="col">
+                <img src={html} height="75vw" width="75vw" />
+                <center>
+                  <p className="figText">HTML</p>
+                </center>
+              </div>
+              <div className="col">
+                <img src={jquery} height="75vw" width="75vw" />
+                <center>
+                  <p className="figText">jQuery</p>
+                </center>
+              </div>
+            </div>
+          </div>
+
+          <div className="technical" style={{ width: "20vw" }}>
+            <center>
+              <p
+                style={{ paddingBottom: 10, paddingTop: 5 }}
+                className="boxText"
+              >
+                Web Development
+              </p>
+
+              <img
+                src={ReactJS}
+                height="75vw"
+                width="75vw"
+                className="circle"
+              />
+              <p className="figText">ReactJS</p>
+            </center>
+          </div>
+        </div>
+
+        {/* <center>
+          <p className="text" style={{ paddingBottom: 100 }}>
+            My Skills
+          </p>
+        </center>
         <div
           className="technical"
           style={{
             width: this.state.width / 2.25
           }}
         >
-          <center>
-            <p
-              style={{
-                fontFamily: "Avenir Next",
-                fontSize: 24,
-                color: "white",
-                paddingTop: 10,
-                paddingBottom: 20
-              }}
-            >
-              Technical Skills
-            </p>
-          </center>
-
           <div
             style={{
               //float: "left",
@@ -158,10 +229,10 @@ export default class Skills extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="soft" style={{ width: this.state.width / 2.25 }}>
+        </div> */}
+        {/* <div className="soft" style={{ width: this.state.width / 2.25 }}>
           World
-        </div>
+        </div> */}
       </div>
     );
   }

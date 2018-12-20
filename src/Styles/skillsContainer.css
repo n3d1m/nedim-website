@@ -3,8 +3,9 @@
   border-width: 0.5px;
   border-color: white;
   border-radius: 10%;
-  float: left;
+  /* float: left; */
   background-color: black;
+  padding-bottom: 1vw;
 }
 
 .soft {
@@ -20,4 +21,34 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.boxText {
+  font-family: Avenir Next;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.figText {
+  font-family: Avenir Next;
+  font-size: 0.75vw;
+  color: white;
+  padding-top: 0.5vw;
+}
+
+.circle {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: white;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
