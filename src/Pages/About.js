@@ -102,9 +102,9 @@ export default class About extends React.Component {
               <img
                 src={this.state.currentImage}
                 className="imageContainer"
-                height={this.state.height / 2.25}
-                width={this.state.width / 2.25}
-                style={{ marginTop: "7%" }}
+                height={this.state.height / 1.5}
+                width={this.state.width / 2.5}
+                //style={{ marginTop: "5%" }}
               />
               <div className="animationContainer" id="bubbles">
                 <div
@@ -152,27 +152,48 @@ export default class About extends React.Component {
             </div>
 
             <div
-              className="imageContainer"
               style={{
-                height: "auto",
-                width: this.state.width / 3,
-                padding: "40px"
-                //paddingTop: "20px"
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
               }}
-              id="about"
             >
-              <p className="aboutText">
-                I am a third year Biomedical Engineering student at the
-                University of Waterloo. I have many interests which include
-                software development, wearable technologies, biomedical devices,
-                mobile/web app development and artificial intelligence. On top
-                of this I am a member of the varsity basketball team at Waterloo
-              </p>
-              <p>""</p>
-              <p className="aboutText">
-                In my free time you can find me playing basketball, gaming or
-                working on a side project I might have going.
-              </p>
+              <div
+                className="imageContainer"
+                style={{
+                  height: "20vw",
+                  width: "30vw",
+                  padding: "40px",
+                  //paddingTop: "20px"
+                  //marginTop: "5%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                }}
+                id="about"
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "even"
+                  }}
+                >
+                  <p className="aboutText">
+                    I am a third year Biomedical Engineering student at the
+                    University of Waterloo. I have many interests which include
+                    software development, wearable technologies, biomedical
+                    devices, mobile/web app development and artificial
+                    intelligence. On top of this I am a member of the varsity
+                    basketball team at Waterloo
+                  </p>
+                  <p>""</p>
+                  <p className="aboutText">
+                    In my free time you can find me playing basketball, gaming
+                    or working on a side project I might have going.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

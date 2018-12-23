@@ -61,6 +61,7 @@ export default class HomePage extends React.Component {
         id="background"
         className="no-cpu"
         // style={{ backgroundColor: "black", height: "5000px" }}
+        //style={{ overflowX: "hidden" }}
       >
         <div className="stars" />
         <div className="twinkling">
@@ -74,7 +75,7 @@ export default class HomePage extends React.Component {
 
           <Navbar
             style={{
-              width: this.state.width,
+              width: "100%",
               height: this.state.height / 12,
               backgroundColor: "black",
               borderStyle: "solid",
@@ -85,7 +86,10 @@ export default class HomePage extends React.Component {
               position: "sticky",
               top: 0,
               visibility: visVar,
-              paddingRight: 10
+              //paddingRight: 10,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
             }}
             data-aos="fade"
             data-aos-easing="ease-in"
@@ -98,9 +102,9 @@ export default class HomePage extends React.Component {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "center",
-                alignContent: "center",
-                width: this.state.width / 6,
-                paddingTop: "1%",
+                //alignItems: "center",
+                //width: this.state.width / 6,
+                //paddingTop: "1%",
                 position: "sticky"
               }}
               className="smallerText"

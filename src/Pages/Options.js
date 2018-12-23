@@ -31,13 +31,14 @@ export default class Options extends React.Component {
         <div
           style={{
             paddingTop: this.state.height / 7,
-            paddingBottom: this.state.height / 8
+            paddingBottom: this.state.height / 8,
+            width: "100%"
           }}
         >
           <p className="text">Hi, I'm Nedim.</p>
           <p className="text">Welcome to my Website.</p>
         </div>
-        <div className="container smallText">
+        <div className="container subText">
           <div>
             <p
               style={{ cursor: "pointer", width: 100 }}
@@ -54,9 +55,7 @@ export default class Options extends React.Component {
               }}
               onClick={() => this.props.handleClickAbout()}
             >
-              <p className="innerText">
-                Learn more about myself and my interests
-              </p>
+              Learn more about myself and my interests
             </div>
           </div>
           <div>
@@ -78,9 +77,7 @@ export default class Options extends React.Component {
               }}
               onClick={() => this.props.handleClickExp()}
             >
-              <p className="innerText">
-                Find out about my different job experiences
-              </p>
+              Find out about my different job experiences
             </div>
           </div>
           <div>
@@ -92,7 +89,7 @@ export default class Options extends React.Component {
                 width: this.state.width / 6
               }}
             >
-              <p className="innerText">See what I bring to the table</p>
+              See what I bring to the table
             </div>
           </div>
           <div>
@@ -104,9 +101,7 @@ export default class Options extends React.Component {
                 width: this.state.width / 6
               }}
             >
-              <p className="innerText">
-                View the different projects I've been working on
-              </p>
+              View the different projects I've been working on
             </div>
           </div>
         </div>
