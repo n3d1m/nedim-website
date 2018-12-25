@@ -23,11 +23,13 @@
   border-bottom: solid 0.5px white;
   color: white;
   font-family: Avenir Next;
-  font-size: 25;
+  font-size: 1.25vw;
 }
 
 .verticalAlign {
   position: relative;
-  top: 50%;
-  transform: translateY(30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

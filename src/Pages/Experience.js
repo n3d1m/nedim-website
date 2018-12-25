@@ -54,8 +54,8 @@ export default class Experience extends React.Component {
               <div
                 className="main"
                 style={{
-                  height: this.state.height / 3,
-                  width: this.state.width / 2.2,
+                  height: "16vw",
+                  width: "45vw",
                   marginRight: this.state.width / 2,
                   marginLeft: "-1vw",
                   marginBottom: 100
@@ -69,14 +69,14 @@ export default class Experience extends React.Component {
                 <div
                   className="picture"
                   style={{
-                    width: this.state.width / 6,
-                    height: this.state.height / 3
+                    width: "16vw",
+                    height: "16vw"
                   }}
                 >
                   <img
                     src={wsib}
-                    height={this.state.height / 3.5}
-                    width={this.state.width / 12}
+                    height={this.state.width / 7}
+                    width={this.state.width / 15}
                     style={{
                       borderStyle: "solid",
                       borderRadius: "10%",
@@ -86,7 +86,7 @@ export default class Experience extends React.Component {
                 </div>
                 <div className="secondRow">
                   <div
-                    className="title"
+                    className="title verticalAlign"
                     style={{
                       width: this.state.width / 3,
                       height: this.state.height / 10
@@ -94,7 +94,7 @@ export default class Experience extends React.Component {
                     }}
                   >
                     <center>
-                      <div className="verticalAlign">
+                      <div>
                         <p>WSIB Innovation Lab - Designer/Developer</p>
                         <p>September 2018 - December 2018</p>
                       </div>
@@ -104,11 +104,19 @@ export default class Experience extends React.Component {
                   <div
                     style={{
                       color: "white",
-                      marginTop: 10,
+                      //marginTop: 10,
                       textAlign: "left",
                       paddingLeft: 10,
+                      paddingRight: 10,
+                      paddingBottom: 10,
                       fontFamily: "Avenir Next",
-                      fontSize: 12
+                      fontSize: "0.9vw",
+                      position: "relative",
+                      marginTop: "1vw"
+                      // display: "flex",
+                      // flexDirection: "column",
+                      // justifyContent: "center",
+                      // alignItems: "center",
                     }}
                   >
                     <p>
@@ -136,8 +144,8 @@ export default class Experience extends React.Component {
               <div
                 className="main"
                 style={{
-                  height: this.state.height / 3,
-                  width: this.state.width / 2.2,
+                  height: "16vw",
+                  width: "45vw",
                   marginLeft: this.state.width / 2,
                   marginRight: "-1vw",
                   marginBottom: 100
@@ -151,14 +159,14 @@ export default class Experience extends React.Component {
                 <div
                   className="picture"
                   style={{
-                    width: this.state.width / 6,
-                    height: this.state.height / 3
+                    width: "16vw",
+                    height: "16vw"
                   }}
                 >
                   <img
                     src={wsib}
-                    height={this.state.height / 3.5}
-                    width={this.state.width / 12}
+                    height={this.state.width / 7}
+                    width={this.state.width / 15}
                     style={{
                       borderStyle: "solid",
                       borderRadius: "10%",
@@ -171,7 +179,7 @@ export default class Experience extends React.Component {
                   style={{ width: this.state.width / 3 }}
                 >
                   <div
-                    className="title"
+                    className="title verticalAlign"
                     style={{
                       width: this.state.width / 3,
                       height: this.state.height / 10
@@ -179,7 +187,7 @@ export default class Experience extends React.Component {
                     }}
                   >
                     <center>
-                      <div className="verticalAlign">
+                      <div>
                         <p>WSIB Innovation Lab - Designer/Developer</p>
                         <p>January 2018 - April 2018</p>
                       </div>
@@ -189,12 +197,14 @@ export default class Experience extends React.Component {
                   <div
                     style={{
                       color: "white",
-                      marginTop: 10,
+                      marginTop: "1vw",
                       textAlign: "left",
                       paddingLeft: 10,
                       fontFamily: "Avenir Next",
-                      fontSize: 12,
-                      paddingRight: 15
+                      fontSize: "0.9vw",
+                      paddingRight: 10,
+                      paddingBottom: 10,
+                      position: "relative"
                       //width: this.state.width / 3
                     }}
                   >
@@ -224,10 +234,9 @@ export default class Experience extends React.Component {
               <div
                 className="main"
                 style={{
-                  height: this.state.height / 3,
-                  width: this.state.width / 2.2,
+                  height: "16vw",
+                  width: "45vw",
                   marginRight: this.state.width / 2,
-
                   marginLeft: "-1vw",
                   marginBottom: 100
                 }}
@@ -240,18 +249,18 @@ export default class Experience extends React.Component {
                 <div
                   className="picture"
                   style={{
-                    width: this.state.width / 6,
-                    height: this.state.height / 3
+                    width: "16vw",
+                    height: "16vw"
                   }}
                 >
                   <img
                     src={grandRiver}
-                    height={this.state.height / 6}
-                    width={this.state.width / 10}
+                    height={this.state.width / 7}
+                    width={this.state.width / 12}
                     style={{
                       borderStyle: "solid",
                       borderRadius: "10%",
-                      marginTop: "30%"
+                      marginTop: "7%"
                     }}
                   />
                 </div>
@@ -260,7 +269,7 @@ export default class Experience extends React.Component {
                   style={{ width: this.state.width / 3 }}
                 >
                   <div
-                    className="title"
+                    className="title verticalAlign"
                     style={{
                       width: this.state.width / 3,
                       height: this.state.height / 10
@@ -268,7 +277,7 @@ export default class Experience extends React.Component {
                     }}
                   >
                     <center>
-                      <div className="verticalAlign">
+                      <div>
                         <p>Grand River Foods - Co-Op Student</p>
                         <p>May 2017 - August 2017</p>
                       </div>
@@ -278,11 +287,13 @@ export default class Experience extends React.Component {
                   <div
                     style={{
                       color: "white",
-                      paddingTop: 10,
+                      paddingTop: "2vw",
                       textAlign: "left",
                       paddingLeft: 10,
+                      paddingRight: 10,
+                      paddingBottom: 10,
                       fontFamily: "Avenir Next",
-                      fontSize: 12
+                      fontSize: "0.9vw"
                     }}
                   >
                     <p>

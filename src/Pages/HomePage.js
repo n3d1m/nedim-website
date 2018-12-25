@@ -93,7 +93,7 @@ export default class HomePage extends React.Component {
             }}
             data-aos="fade"
             data-aos-easing="ease-in"
-            data-aos-duration="100"
+            data-aos-duration="500"
             data-aos-anchor-placement="top-center"
           >
             <div
