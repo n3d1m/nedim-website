@@ -102,7 +102,7 @@ export default class About extends React.Component {
               <img
                 src={this.state.currentImage}
                 className="imageContainer"
-                height={this.state.height / 1.5}
+                height={this.state.width / 3.5}
                 width={this.state.width / 2.5}
                 //style={{ marginTop: "5%" }}
               />
@@ -161,8 +161,8 @@ export default class About extends React.Component {
               <div
                 className="imageContainer"
                 style={{
-                  height: "20vw",
-                  width: "30vw",
+                  height: this.state.width / 5.5,
+                  width: this.state.width / 3,
                   padding: "40px",
                   //paddingTop: "20px"
                   //marginTop: "5%",

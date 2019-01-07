@@ -1,6 +1,6 @@
 .technical {
   border-style: solid;
-  border-width: 0.5px;
+  border-width: 2px;
   border-color: white;
   border-radius: 10%;
   /* float: left; */
@@ -38,7 +38,7 @@
 
 .figText {
   font-family: Avenir Next;
-  font-size: 0.75vw;
+  font-size: 0.9vw;
   color: white;
   padding-top: 0.5vw;
 }

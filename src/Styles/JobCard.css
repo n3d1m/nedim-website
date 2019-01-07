@@ -1,7 +1,7 @@
 .main {
   border-style: solid;
   border-color: white;
-  border-width: 0.5px;
+  border-width: 2px;
   border-radius: 10%;
   background-color: black;
   display: flex;
